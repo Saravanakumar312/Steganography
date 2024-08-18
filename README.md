@@ -57,18 +57,28 @@ This project implements a simple form of steganography, a technique used to hide
 ### Error Handling
 - The program provides feedback if there are issues with argument validation, insufficient capacity in the BMP image, or if decoding fails.
 
+It seems like you want to include a list of files shown on the left side of your GitHub repository into your `README.md` file. Here's how you can format it:
+
+---
+
 ### File Structure
-- **encode.h, decode.h:** Header files containing function prototypes and necessary macros for encoding and decoding.
-- **types.h:** Defines custom types and enumerations used throughout the program.
-- **common.h:** Contains common functions used in both encoding and decoding processes.
-- **encode.c, decode.c:** Source files implementing the encoding and decoding logic.
-- **main.c:** The entry point of the program, handling argument parsing and operation selection.
+
+- **beautiful.bmp**: Sample BMP image used for encoding data.
+- **common.h**: Contains common functions used in both encoding and decoding processes.
+- **decode.c**: Source file for decoding logic.
+- **decode.h**: Header file containing function prototypes and necessary macros for decoding.
+- **decode.txt**: Example output file for decoded data.
+- **encode.c**: Source file for encoding logic.
+- **encode.h**: Header file containing function prototypes and necessary macros for encoding.
+- **secret.txt**: The secret message file used for encoding into the BMP image.
+- **stego.bmp**: The output BMP image with the hidden secret message.
+- **test_encode.c**: Test file used to verify encoding functions.
+- **types.h**: Defines custom types and enumerations used throughout the program.
+
 
 ### Future Enhancements
 - Support for additional image formats.
 - Implementation of more robust error handling and user input validation.
 - Development of a GUI for easier interaction.
 
----
 
-This description provides a comprehensive overview of the project, how it works, and how to use it. You can adjust the wording or add more details based on your specific implementation and goals.
